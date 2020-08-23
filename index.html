@@ -2,19 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- js -->
     <script src="js/script.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet" />
     <title>Digital Clock</title>
 </head>
 
-<body>
-
+<body onload="realtimeClock()">
+    <div class="main-container">
+        <h1>REAL TIME CLOCK</h1>
+        <div id="clock"></div>
+        <img class="img-background" src="image/thumb-1920-1024253.png" />
+    </div>
 </body>
 
 </html>
